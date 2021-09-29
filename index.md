@@ -17,7 +17,7 @@
 # User Guide
 ---
 
-Duke is a **Personal Assistant Chatbot that helps a person to keep track of various things via a Command Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, Duke can get your contact management tasks done faster than traditional GUI apps..This product is not meant for end-users and therefore there is no user-friendly installer. 
+Duke is a **Personal Assistant Chatbot that helps a person to keep track of various things via a Command Line Interface** (CLI). If you can type fast, Duke can manage your tdo task list faster than traditional GUI apps.This product is not meant for end-users and therefore there is no user-friendly installer. 
 
 - [Quick Start](#quick-start) 😃
 - [Features](#features) 😆
@@ -39,8 +39,8 @@ Prerequisites: `JDK 11` or above version installed in your computer.
 
 1. Download the latest `Duke.jar` from [here]().
 2. Copy the file to the folder you want to use as the home folder for your Duke.
-3. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app contains some sample data.
-4. Type the command in the command box and press Enter to execute it. e.g. typing help and pressing Enter will show help instructions.
+3. Double-click the file to start the app. The CLI similar to the below should appear in a few seconds. Note how the app contains some sample data.
+4. Type the command in the command line and press Enter to execute it. e.g. typing `help` and pressing `Enter`will show help instructions.
   Some example commands you can try:
 
     - `list` : Lists all contacts.
