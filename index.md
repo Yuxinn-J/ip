@@ -18,6 +18,7 @@ Duke is a **Personal Assistant Chatbot that helps a person to keep track of vari
 - [Command Summary](command-summary) 😁
 
 # Quick Start
+---
 Prerequisites: `JDK 11` or above version installed in your computer.
 
 1. Download the latest `Duke.jar` from [here]().
@@ -53,6 +54,7 @@ Prerequisites: `JDK 11` or above version installed in your computer.
    ```
 
 # Features
+---
 
 > ⚠️ Notes about the command format:
 > > - Words in `UPPER_CASE` are the parameters to be supplied by the user.
@@ -64,11 +66,13 @@ Prerequisites: `JDK 11` or above version installed in your computer.
 
 
 ## Viewing help
+---
 🔷 Shows help instructions.
 
 🚩 Format: `help`
 
 ## Adding a task
+---
 🔷 Adds a task to the task list. **Duke provides three types of tasks:**
   1. `todo` : ToDos without any date/time attached to it.
       - 🚩 Format: `todo DESCRIPTION`
@@ -83,11 +87,13 @@ Prerequisites: `JDK 11` or above version installed in your computer.
       - 🟢 Examples: `event project meeting /at Mon 2-4pm`.
       
 ## Listing all tasks
+---
 🔷 Shows a list of all tasks in the list.
 
 🚩 Format: `list`
 
 ## Marking a task as done
+---
 🔷 Marks the task identified by the index number used as done.
 
 🚩 Format: `done INDEX`
@@ -100,6 +106,7 @@ Prerequisites: `JDK 11` or above version installed in your computer.
   - `find book` followed by `done 1` marks the 1st task in the results of the `find` command.
 
 ## Locating tasks by keyword
+---
 🔷 Finds tasks whose descriptions contain the given keywords.
 
 🚩 Format: `find KEYWORD`
@@ -112,6 +119,7 @@ Prerequisites: `JDK 11` or above version installed in your computer.
   - `find lab` returns `todo cs2030 lab1` and `deadline review cz2005 lab quiz /by tonight`.
 
 ## Deleting a task
+---
 🔷 Deletes the specified task from the task list.
 
 🚩 Format: `delete INDEX`
@@ -124,26 +132,30 @@ Prerequisites: `JDK 11` or above version installed in your computer.
   - `find book` followed by `delete 1` deletes the 1st task in the results of the `find` command.
 
 ## Existing the program
+---
 🔷 Exits the program.
 
 🚩 Format: `exit`
 
 ## Saving the data
+---
 🔷 Duke task list data are saved in the hard disk automatically after any command that changes the data. There is no need to save manually.
 
 ## Editing the data file
+---
 🔷 Duke task list data are saved as a JSON file [JAR file location]/data/duke.json. Advanced users are welcome to update data directly by editing that data file.
 > ❗ **Caution:**
 >  If your changes to the data file makes its format invalid, AddressBook will discard all data and start with an empty data file at the next run.
 
 # FAQ
-
+---
 **Q:** How do I transfer my data to another Computer?
 
 **A:** Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Duke home folder.
 
 # Command Summary
-
+---
+|:------------------|:-------------------------------|:-------------------------------------|
 | Action            | Format                         | Examples                             |
 
 |:------------------|:-------------------------------|:-------------------------------------|
