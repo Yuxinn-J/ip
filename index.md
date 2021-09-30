@@ -38,7 +38,7 @@ Duke is a **Personal Assistant Chatbot that helps a person to keep track of vari
 ---
 Prerequisites: `JDK 11` or above version installed in your computer.
 
-1. Download the latest `Duke.jar` from [here]().
+1. Download the latest `Duke.jar` from [here](https://github.com/Yuxinn-J/ip/releases/download/A-Release/ip.jar).
 2. Copy the file to the folder you want to use as the home folder for your Duke.
 3. Open a command window in that folder. Run `java -jar {filename}.jar`. Duke should start in a few seconds. 
 4. Type the command in the command line and press Enter to execute it. e.g. typing `help` and pressing `Enter`will show help instructions.
