@@ -40,7 +40,7 @@ Prerequisites: `JDK 11` or above version installed in your computer.
 
 1. Download the latest `Duke.jar` from [here]().
 2. Copy the file to the folder you want to use as the home folder for your Duke.
-3. Double-click the file to start the app. The CLI similar to the below should appear in a few seconds. Note how the app contains some sample data.
+3. Open a command window in that folder. Run `java -jar {filename}.jar`. Duke should start in a few seconds. 
 4. Type the command in the command line and press Enter to execute it. e.g. typing `help` and pressing `Enter`will show help instructions.
   Some example commands you can try:
 
