@@ -28,7 +28,7 @@ Duke is a **Personal Assistant Chatbot that helps a person to keep track of vari
   - [Marking a task as done](#marking-a-task-as-done) : `done`
   - [Locating tasks by keyword](#locating-tasks-by-keyword) : `find`
   - [Deleting a task](#deleting-a-task) : `delete`
-  - [Existing the program](#existing-the-program) : `exit`
+  - [Existing the program](#existing-the-program) : `bye`
   - [Saving the data](#saving-the-data)
   - [Editing the data file](#editing-the-data-file)
 - [FAQ](#faq) 🤣
@@ -136,7 +136,7 @@ Prerequisites: `JDK 16` or above version installed in your computer.
 ---
 🔷 Exits the program.
 
-🚩 Format: `exit`
+🚩 Format: `bye`
 
 ## Saving the data
 ---
