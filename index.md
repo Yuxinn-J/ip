@@ -144,9 +144,9 @@ Prerequisites: `JDK 11` or above version installed in your computer.
 
 ## Editing the data file
 ---
-🔷 Duke task list data are saved as a JSON file [JAR file location]/data/duke.json. Advanced users are welcome to update data directly by editing that data file.
+🔷 Duke task list data are saved as a txt file [JAR file location]/data/duke.txt. Advanced users are welcome to update data directly by editing that data file.
 > ❗ **Caution:**
->  If your changes to the data file makes its format invalid, AddressBook will discard all data and start with an empty data file at the next run.
+>  If your changes to the data file makes its format invalid, Duke will discard all data and start with an empty data file at the next run.
 
 # FAQ
 ---
