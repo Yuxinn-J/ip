@@ -157,9 +157,8 @@ Prerequisites: `JDK 16` or above version installed in your computer.
 # Command Summary
 ---
 
-| Action            | Format                         | Examples                             |
-
-|:------------------|:-------------------------------|:-------------------------------------|
+Action              | Format                         | Example                              |
+--------            | ------------------------------ | ------------------------------------ |
 | **Add_Todo**      | `todo DESCRIPTION`             | `todo borrow book`                   |
 | **Add_Deadline**  | `deadline DESCRIPTION /by DATE`| `deadline return book /by Sunday`    |
 | **Add_Event**     | `event DESCRIPTION /at TIME`   | `event project meeting /at Mon 2-4pm`|
