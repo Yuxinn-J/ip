@@ -159,13 +159,13 @@ Prerequisites: `JDK 16` or above version installed in your computer.
 
 Action              | Format                         | Example                              |
 --------            | ------------------------------ | ------------------------------------ |
-| **Add_Todo**      | `todo DESCRIPTION`             | `todo borrow book`                   |
-| **Add_Deadline**  | `deadline DESCRIPTION /by DATE`| `deadline return book /by Sunday`    |
-| **Add_Event**     | `event DESCRIPTION /at TIME`   | `event project meeting /at Mon 2-4pm`|
-| **Done**          | `done INDEX`                   | `done 2`                             |
-| **Delete**        | `delete INDEX`                 | `delete 3`                           |
-| **Find**          | `find KEYWORD`                 |`find Book`                           |
-| **List**          |`list`                          |                                      |
-| **Help**          | `help`                         |                                      |
-| **Exit**          | `exit`                         |                                      |
+**Add_Todo**      | `todo DESCRIPTION`             | `todo borrow book`                   |
+**Add_Deadline**  | `deadline DESCRIPTION /by DATE`| `deadline return book /by Sunday`    |
+**Add_Event**     | `event DESCRIPTION /at TIME`   | `event project meeting /at Mon 2-4pm`|
+**Done**          | `done INDEX`                   | `done 2`                             |
+**Delete**        | `delete INDEX`                 | `delete 3`                           |
+**Find**          | `find KEYWORD`                 |`find Book`                           |
+**List**          |`list`                          |                                      |
+**Help**          | `help`                         |                                      |
+**Exit**          | `exit`                         |                                      |
 
